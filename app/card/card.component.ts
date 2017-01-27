@@ -9,4 +9,8 @@ import {Task} from '../model/task';
 })
 export class CardComponent {
     @Input() task: Task;
+
+    statusToggle() {
+        this.task.completed = !this.task.completed;
+    }
 }

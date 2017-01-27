@@ -7,11 +7,22 @@
     border: none;
 }
 
+.card.completed, .card.completed .card-footer {
+    background-color: #EEE;
+}
+
 .card-footer {
     text-align: right;
 }
 
 i {
-    color: #CC0000;
     padding-right: .5rem;
+}
+
+i.icon-red {
+    color: #CC0000;
+}
+
+i.icon-green {
+    color: green;
 }

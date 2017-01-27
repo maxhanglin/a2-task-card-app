@@ -16,10 +16,22 @@ form {
     margin-left: 2rem;
 }
 
+.btn:disabled {
+    background-color: #00796B;
+    border-color: #00796B;
+    margin-left: 2rem;
+}
+
 .form-control:focus {
     border-color: #009688;
 }
 
 i {
     padding-right: .5rem;
+}
+
+h5 {
+    color: #CCC;
+    text-align: center;
+    margin-top: 3rem;
 }
